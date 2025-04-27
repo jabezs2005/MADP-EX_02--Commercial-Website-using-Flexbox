@@ -51,10 +51,1179 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+### index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AURA Holidays</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- home section starts hare  -->
+    <section class="home">
+      <header>
+        <h4>AURA</h4>
+        <nav id="navbar">
+          <i class="fa fa-close"></i>
+          <a href="#" class="active">about</a>
+          <a href="#">services</a>
+          <a href="#">tour</a>
+          <a href="#">contact</a>
+        </nav>
+        <div class="actions">
+          <a class="btn" href="#">login</a>
+          <i class="fa fa-bars"></i>
+        </div>
+      </header>
+
+      <div class="main">
+        <h1>Indonesia: Where Culture Meets Nature</h1>
+        <p>Exploring indonesia is an unforgettable adventure.</p>
+
+        <div class="search">
+          <ul>
+            <li>
+              <i class="fa-regular fa-calendar-days"></i><span>date</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </li>
+
+            <li>
+              <i class="fa-regular fa-credit-card"></i><span>year</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </li>
+
+            <li>
+              <i class="fa-regular fa-user"></i><span>time</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </li>
+          </ul>
+          <button class="btn">search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- home section ends hare  -->
+
+    <!-- achivment section starts hare  -->
+
+    <section class="achivment">
+      <div class="box">
+        <h5>10L+</h5>
+        <p>total customers</p>
+      </div>
+      <div class="box">
+        <h5>05+</h5>
+        <p>years of experience</p>
+      </div>
+      <div class="box">
+        <h5>10K</h5>
+        <p>total destinations</p>
+      </div>
+      <div class="box">
+        <h5>4.7</h5>
+        <p>average rating</p>
+      </div>
+    </section>
+
+    <!-- achivment section ends hare  -->
+
+    <!-- best location section starts hare  -->
+
+    <section class="location">
+      <div class="responsive-text">
+        <div class="heading-box">
+          <h6 class="label">best location</h6>
+          <h2 class="heading">indonesia tourism</h2>
+        </div>
+        <div class="text-box">
+          <p>
+            Discover the Breathtaking beauty of indonesia's 17,000 islands.
+            Explore the lush rainforests, towering volcanoes, and pristine
+            islands.
+          </p>
+        </div>
+      </div>
+
+      <div class="images">
+        <div class="box">
+          <img src="location_1.jpeg" alt="" />
+          <ul>
+            <li>bromo, east java</li>
+            <li>bromo tengger tour</li>
+          </ul>
+        </div>
+        <div class="box">
+          <img src="location_2.jpeg" alt="" />
+          <ul>
+            <li>denpasar, bali</li>
+            <li>bali beacj tourism</li>
+          </ul>
+        </div>
+        <div class="box">
+          <img src="location_3.jpeg" alt="" />
+          <ul>
+            <li>lampung, south sumatra</li>
+            <li>sumatra tourism</li>
+          </ul>
+        </div>
+        <div class="box">
+          <img src="location4.jpg" alt="" />
+          <ul>
+            <li>jogjakarta, central java</li>
+            <li>borobudur temple tour</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- best location section ends hare  -->
+
+    <!-- booking process seciton starts here  -->
+
+    <section class="booking">
+      <div class="image">
+        <img src="work-process.jpeg" alt="" />
+      </div>
+
+      <div class="process">
+        <h6 class="label">how it works</h6>
+        <h2 class="heading">one click for you</h2>
+
+        <div class="box scale">
+          <span>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <div class="text">
+            <h4>find your destination</h4>
+            <p>
+              Uncover the rich cultural heritage of indonesia's 300 ethnic
+              groups.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <span>
+            <i class="fa-solid fa-ticket"></i>
+          </span>
+          <div class="text">
+            <h4>book a ticket</h4>
+            <p>
+              Immerse yourself in indonesia's unique blend of traditional and
+              modern culture.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <span>
+            <i class="fa-regular fa-money-bill-1"></i>
+          </span>
+          <div class="text">
+            <h4>make payment</h4>
+            <p>
+              From relaxation to exhilation, indonesia has something for every
+              kind of traveler.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <span>
+            <i class="fa-regular fa-map"></i>
+          </span>
+          <div class="text">
+            <h4>explore destination</h4>
+            <p>
+              Dive into the crystal - clear waters, trek through the jungle, or
+              surf the waves.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- booking process seciton ends here  -->
+
+    <!-- packages section starts hare  -->
+
+    <section class="packages">
+      <div class="responsive-text">
+        <div class="heading-box">
+          <h6 class="label">tour packages</h6>
+          <h2 class="heading">our tourist destination</h2>
+        </div>
+        <div class="text-box">
+          <p>
+            Experience the magic of indonesia's diverse landscapes. Discover
+            ancient temples, vibrant festivals, and warm hospitality.
+          </p>
+        </div>
+      </div>
+      <div class="images">
+        <div class="box">
+          <img src="package1.jpeg" alt="" />
+          <ul class="top">
+            <li>7 days</li>
+            <li><i class="fa solid fa-star"></i> 4.7</li>
+          </ul>
+          <div class="bottom">
+            <time datetime="2024-10-27">25 April</time>
+            <ul>
+              <li>bali tour packages</li>
+              <li>$205</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <img src="package2.jpg" alt="" />
+          <ul class="top">
+            <li>5 days</li>
+            <li><i class="fa solid fa-star"></i> 4.9</li>
+          </ul>
+          <div class="bottom">
+            <time datetime="2024-10-27">21 January</time>
+            <ul>
+              <li>java tour packages</li>
+              <li>$190</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <img src="package3.jpg" alt="" />
+          <ul class="top">
+            <li>3 days</li>
+            <li><i class="fa solid fa-star"></i> 4.9</li>
+          </ul>
+          <div class="bottom">
+            <time datetime="2024-10-27">12 December</time>
+            <ul>
+              <li>solo tour packages</li>
+              <li>$230</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends hare  -->
+
+    <!-- blog section starts hare  -->
+
+    <section class="blog">
+      <h6 class="label">our blog</h6>
+      <h1 class="heading">our travel memories</h1>
+      <div class="container">
+        <div class="box">
+          <img src="blog1.jpeg" alt="" />
+          <div class="content">
+            <time datetime="2024-10-30">Nov 30, 2024</time>
+            <h3>2025 Travel trends - what you need to know</h3>
+            <p>
+              Discover the Breathtaking beauty of indonesia's 17,000 islands.
+              Explore the lush rainforests, towering volcanoes, and pristine
+              islands.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="blog2.jpg" alt="" />
+          <div class="content">
+            <time datetime="2024-11-03">Dec 12, 2024</time>
+            <h3>
+              jeep adventure is a new attraction for tourists visiting garut
+            </h3>
+            <p>
+              Dive into the crystal - clear waters, trek through the jungle, or
+              surf the waves.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="action">
+        <a href="#">view more</a>
+      </div>
+    </section>
+
+    <!-- blog section ends hare  -->
+
+    <!-- footer section starts hare  -->
+
+    <footer>
+      <div class="links">
+        <ul>
+          <h4>about</h4>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">careers</a></li>
+          <li><a href="#">jobs</a></li>
+          <li><a href="#">in press</a></li>
+          <li><a href="#">gallery</a></li>
+        </ul>
+        <ul>
+          <h4>support</h4>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">online chat</a></li>
+          <li><a href="#">whatsapp</a></li>
+          <li><a href="#">telegram</a></li>
+          <li><a href="#">ticketing</a></li>
+          <li><a href="#">call center</a></li>
+        </ul>
+        <ul>
+          <h4>FAQ</h4>
+          <li><a href="#">account</a></li>
+          <li><a href="#">booking</a></li>
+          <li><a href="#">payment</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">terms & condition</a></li>
+        </ul>
+      </div>
+      <div class="newsletter">
+        <h4>newsletter</h4>
+        <p>
+          Immerse yourself in indonesia's unique blend of traditional and modern
+          culture.
+        </p>
+        <div class="email-box">
+          <input type="text" placeholder="enter your email" />
+          <button>submit</button>
+        </div>
+        <ul class="social-links">
+          <li><i class="fa-brands fa-square-instagram"></i></li>
+          <li><i class="fa-brands fa-square-facebook"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+        </ul>
+      </div>
+      <div class="copright">
+        <p>&copy;Techno White Fang, all rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- footer section ends hare  -->
+     
+    <script src="script.js"></script>
+  </body>
+</html>
+
+```
+### styles.css
+```
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --white-clr: #fff;
+  --black-clr: #000;
+  --text-clr: #777;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  padding: 4rem 10rem;
+}
+
+.btn {
+  color: var(--black-clr);
+  background: var(--white-clr);
+  font-size: 1.4rem;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+  border: 2px solid var(--white-clr);
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  color: var(--white-clr);
+  background: transparent;
+}
+
+.label {
+  font-size: 1.4rem;
+  color: var(--text-clr);
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 6rem;
+  font-weight: 500;
+  letter-spacing: -2px;
+  white-space: nowrap;
+}
+
+body {
+  background: #f8f8fa;
+}
+
+/* ------------------------- home section starts hare ---------------- */
+
+.home {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 10%)),
+    url(home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #fff;
+  border-radius: 2rem;
+  color: #fff;
+  position: relative;
+}
+
+.home header {
+  padding: 0 4rem;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.home header i {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none;
+}
+
+.home header h4 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.home header nav {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding: 0.8rem 5rem;
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(5px);
+  border-top: 2px solid rgb(255 255 255 / 20%);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  border-radius: 2rem;
+}
+
+.home header nav a {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #ddd;
+  transition: color 0.2s ease;
+}
+
+.home header nav a:is(.active, :hover) {
+  color: #fff;
+}
+
+.home .main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home .main h1 {
+  font-size: 9rem;
+  text-transform: none;
+  font-weight: 500;
+  max-width: 120rem;
+  letter-spacing: -3px;
+}
+
+.home .main p {
+  font-size: 1.6rem;
+}
+
+.home .main .search {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(5px);
+  border-top: 2px solid rgb(255 255 255 / 20%);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+
+.home .main .search ul li {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.2rem 3rem;
+  cursor: pointer;
+}
+
+.home .main .search ul li:first-child {
+  padding-left: 1rem;
+}
+
+.home .main .search ul li:not(:last-child) {
+  border-right: 2px solid rgb(255 255 255 / 30%);
+}
+
+.home .main .search ul li i:first-child {
+  margin-right: 1rem;
+}
+
+.home .main .search ul li i:last-child {
+  font-size: 0.8rem;
+  margin-left: 3rem;
+  margin-top: -0.5rem;
+}
+
+.home .main .search button {
+  padding: 0.8rem 3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ------------------------- home section ends hare ---------------- */
+
+/* ---------------------------- achivment section starts here ---------------  */
+
+.achivment {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  transform: translate(0, -50%);
+}
+
+.achivment .box {
+  padding: 2rem;
+  background: var(--white-clr);
+  box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 2rem;
+}
+
+.achivment .box h5 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.achivment .box p {
+  font-size: 1.6rem;
+  color: var(--text-clr);
+}
+
+/* ---------------------------- achivment section ends here ---------------  */
+
+/* ----------------------- best location section starts hare ----------------  */
+
+.responsive-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.responsive-text .text-box {
+  max-width: 60rem;
+  margin-top: auto;
+}
+
+.responsive-text .text-box p {
+  font-size: 1.6rem;
+  color: var(--text-clr);
+  line-height: 1.8;
+}
+
+.location .images {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.location .images .box {
+  height: 35rem;
+  width: 35rem;
+  flex-grow: 1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 30%);
+}
+
+.location .images .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+img:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.location .images .box ul {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  list-style: none;
+}
+
+.location .images .box ul li {
+  font-size: 1.6rem;
+  color: #ddd;
+}
+
+.location .images .box ul li:last-child {
+  color: var(--white-clr);
+}
+
+/* ----------------------- best location section ends hare ----------------  */
+
+/* ----------------------- booking section starts hare ----------------  */
+
+.booking {
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  margin: 4rem 0;
+}
+
+.booking .image,
+.booking .process {
+  width: 100%;
+}
+
+.booking .image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 30%);
+}
+
+.booking .image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.booking .process .box {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+.booking .process .box span {
+  font-size: 2rem;
+  width: 55px;
+  height: 50px;
+  background: var(--white-clr);
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+}
+
+.booking .process .box .text {
+  width: 100%;
+}
+
+.booking .process .box .text h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.booking .process .box .text p {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  color: var(--text-clr);
+}
+
+.booking .process .scale {
+  background: var(--white-clr);
+  border-radius: 1.5rem;
+  scale: 1.01;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 2%);
+}
+
+.booking .process .scale span {
+  background: #f2f7ff;
+}
+
+/* ----------------------- booking section ends hare ----------------  */
+
+/* packages section starts here  */
+
+.packages .images {
+  margin-top: 4rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.packages .images .box {
+  width: 100%;
+  height: 50rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 10%);
+  position: relative;
+}
+
+.packages .images .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.packages .images .box .top {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: var(--white-clr);
+  list-style: none;
+}
+
+.packages .images .box .top li {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  border-radius: 3rem;
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(10px);
+}
+
+.packages .images .box .top li i {
+  color: #fdcc0d;
+}
+
+.packages .images .box .bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: calc(100% - 2rem);
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.packages .images .box .bottom time {
+  color: #ddd;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.packages .images .box .bottom ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  color: var(--white-clr);
+}
+
+/* packages section ends here  */
+
+/* blogs section starts here  */
+
+.blog {
+  width: 100%;
+}
+
+.blog .container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.blog .container .box {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 10%);
+}
+
+.blog .container .box img {
+  width: 100%;
+  height: 35rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog .container .box .content {
+  padding: 1.5rem;
+}
+
+.blog .container .box .content time {
+  font-size: 1.4rem;
+  color: var(--text-clr);
+}
+
+.blog .container .box .content h3 {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
+.blog .container .box .content p {
+  color: var(--text-clr);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.blog .action {
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.blog .action a {
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+  background: var(--black-clr);
+  color: var(--white-clr);
+  display: inline-block;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.blog .action a:hover {
+  box-shadow: 0 8px 10px rgb(0 0 0 / 20%);
+  transform: translate(0, -5px);
+}
+
+/* blogs section ends here  */
+
+/* -------------- footer section starts hare --------------  */
+
+footer {
+  width: 100%;
+  margin-top: 5rem;
+  padding: 4rem 10rem;
+  padding-top: 10rem;
+  background: #191515;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+footer .links {
+  flex: 1 0 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+footer .links ul {
+  flex: 1 0 100px;
+  display: grid;
+  gap: 2rem;
+  list-style: none;
+}
+
+footer h4 {
+  font-size: 1.6rem;
+  color: var(--white-clr);
+  font-weight: 600;
+}
+
+footer .links ul li a {
+  font-size: 1.3rem;
+  color: var(--text-clr);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+footer .links ul li a:hover {
+  color: var(--white-clr);
+}
+
+footer .newsletter {
+  flex: 1 0 250px;
+  max-width: 55rem;
+}
+
+footer .newsletter p {
+  color: var(--text-clr);
+  font-size: 1.3rem;
+  margin: 2rem 0;
+}
+
+footer .newsletter .email-box {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border: 2px solid var(--text-clr);
+  border-radius: 3rem;
+  padding: 0.5rem;
+}
+
+footer .newsletter .email-box input {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--white-clr);
+  font-size: 1.3rem;
+}
+
+footer .newsletter .email-box input::placeholder {
+  color: var(--white-clr);
+}
+
+footer .newsletter .email-box button {
+  padding: 0 2rem;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  background: var(--text-clr);
+  color: var(--white-clr);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer .newsletter .email-box button:hover {
+  color: var(--black-clr);
+  background: var(--white-clr);
+}
+
+footer .newsletter .social-links {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+footer .newsletter .social-links li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--text-clr);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer .newsletter .social-links li:hover {
+  border: 2px solid var(--white-clr);
+  background: transparent;
+}
+
+footer .newsletter .social-links li i {
+  font-size: 1.6rem;
+  color: var(--white-clr);
+}
+
+footer .copright {
+  margin-top: 3rem;
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+footer .copright p {
+  font-size: 1.3rem;
+  color: var(--white-clr);
+}
+
+/* -------------- footer section ends hare --------------  */
+
+/* ----------------------- media query section starts hare --------------------- */
+
+@media (max-width: 1065px) {
+  .heading {
+    white-space: wrap;
+  }
+}
+
+@media (max-width: 957px) {
+  html {
+    font-size: 52%;
+  }
+
+  .booking {
+    flex-direction: column;
+  }
+
+  .packages .images {
+    grid-template-columns: 1fr;
+  }
+  .location .images {
+    flex-direction: column;
+  }
+  .location .images .box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 795px) {
+  .home .main h1 {
+    font-size: 6rem;
+  }
+  .location .images {
+    flex-direction: column;
+  }
+  .location .images .box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 706px) {
+  section {
+    padding: 4rem;
+  }
+
+  .home header i {
+    display: inline-block;
+  }
+
+  .home header .actions i {
+    margin-left: 1rem;
+  }
+
+  .home header nav {
+    position: absolute;
+    top: -3rem;
+    left: -1rem;
+    width: calc(100% + 1.5rem);
+    border-radius: 0;
+    flex-direction: column;
+    padding: 4rem;
+    padding-top: 8rem;
+    background: rgb(0 0 0 / 20%);
+    border-bottom: 1px solid var(--white-clr);
+    transform: translate(0, -100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .home header nav i {
+    font-size: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+  }
+
+  .home header nav.active {
+    transform: translate(0, 0);
+  }
+
+  .home .main .search ul li {
+    padding: 0.5rem;
+  }
+
+  .home .main .search ul li i:last-child {
+    margin-left: 1rem;
+  }
+
+  .achivment {
+    transform: translate(0, 0);
+    flex-wrap: wrap;
+  }
+
+  .responsive-text {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .location .images {
+    flex-direction: column;
+  }
+  .location .images .box {
+    width: 100%;
+  }
+
+  footer {
+    padding: 4rem;
+  }
+}
+
+@media (max-width: 546px) {
+  .heading {
+    font-size: 4rem;
+  }
+
+  .home .main h1 {
+    font-size: 3.3rem;
+    letter-spacing: 0;
+  }
+
+  .home .main .search {
+    position: relative;
+  }
+
+  .home .main .search button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 140%);
+  }
+  .location .images {
+    flex-direction: column;
+  }
+  .location .images .box {
+    width: 100%;
+  }
+}
+
+/* ----------------------- media query section ends hare --------------------- */
+
+```
+### Script.js
+```
+const menubar = document.querySelector(".fa-bars");
+const close = document.querySelector(".fa-close");
+const navbar = document.querySelector("#navbar");
+
+menubar.addEventListener("click", () => {
+    navbar.classList.add("active");
+});
 
 
+close.addEventListener("click", () => {
+    navbar.classList.remove("active");
+})
+```
 ## OUTPUT
-
-
+![alt text](<Responsive-Travel-/.github/workflows/img/Screenshot 2025-04-27 203347.png>)
+![alt text](<Responsive-Travel-/.github/workflows/img/Screenshot 2025-04-27 203358.png>)
+![alt text](<Responsive-Travel-/.github/workflows/img/Screenshot 2025-04-27 203410.png>)
+![alt text](<Responsive-Travel-/.github/workflows/img/Screenshot 2025-04-27 203420.png>)
+![alt text](<Responsive-Travel-/.github/workflows/img/Screenshot 2025-04-27 203433.png>)
 ## RESULT
 The program for creating commercial website using CSS Flexbox is executed successfully.
